@@ -1,0 +1,242 @@
+{
+    "2": {
+        "rarity": 2,
+        "name": "Hand Fan",
+        "type": "Air"
+    },
+    "3": {
+        "rarity": 0,
+        "name": "Mud Puddle",
+        "type": "Water"
+    },
+    "4": {
+        "rarity": 1,
+        "name": "New Bed",
+        "type": "?"
+    },
+    "5": {
+        "rarity": 0,
+        "name": "Pet Frog",
+        "type": "Water"
+    },
+    "6": {
+        "rarity": 4,
+        "name": "Pet Slug",
+        "type": "?"
+    },
+    "7": {
+        "rarity": 0,
+        "name": "Slime Ball",
+        "type": "?"
+    },
+    "8": {
+        "rarity": 1,
+        "name": "Small Geyser",
+        "type": "Water"
+    },
+    "9": {
+        "rarity": 0,
+        "name": "Bonsai Tree",
+        "type": "Grass"
+    },
+    "10": {
+        "rarity": 2,
+        "name": "Bubbling Berries",
+        "type": "Water"
+    },
+    "11": {
+        "rarity": 0,
+        "name": "Cerulean Butterfly",
+        "type": "Grass"
+    },
+    "12": {
+        "rarity": 0,
+        "name": "Comfy Bed",
+        "type": "?"
+    },
+    "13": {
+        "rarity": 0,
+        "name": "Small Sapling",
+        "type": "Grass"
+    },
+    "14": {
+        "rarity": 6,
+        "name": "Cosy Campfire",
+        "type": "Fire"
+    },
+    "15": {
+        "rarity": 2,
+        "name": "Cute Firefly",
+        "type": "Fire or Air?"
+    },
+    "16": {
+        "rarity": 0,
+        "name": "Dusty Chew Toy",
+        "type": "?"
+    },
+    "17": {
+        "rarity": 0,
+        "name": "Empty Bottle",
+        "type": "?"
+    },
+    "18": {
+        "rarity": 2,
+        "name": "Fiery Cake",
+        "type": "Fire"
+    },
+    "19": {
+        "rarity": 4,
+        "name": "Fire Corn",
+        "type": "Fire"
+    },
+    "20": {
+        "rarity": 0,
+        "name": "Fizzy Water",
+        "type": "Water"
+    },
+    "21": {
+        "rarity": 4,
+        "name": "Flaming Doughnut",
+        "type": "Fire"
+    },
+    "22": {
+        "rarity": 2,
+        "name": "Gray Acorns",
+        "type": "Grass"
+    },
+    "23": {
+        "rarity": 0,
+        "name": "Green Pinwheel",
+        "type": "Grass or Air?"
+    },
+    "24": {
+        "rarity": 3,
+        "name": "Hot Chew Toy",
+        "type": "Fire"
+    },
+    "25": {
+        "rarity": 0,
+        "name": "Ice Cubes",
+        "type": "Water"
+    },
+    "26": {
+        "rarity": 0,
+        "name": "Light Chew Toy",
+        "type": "?"
+    },
+    "27": {
+        "rarity": 0,
+        "name": "Lucky Stick",
+        "type": "?"
+    },
+    "28": {
+        "rarity": 0,
+        "name": "Milky Mushrooms",
+        "type": "Grass"
+    },
+    "29": {
+        "rarity": 0,
+        "name": "Mini Fountain",
+        "type": "Water"
+    },
+    "30": {
+        "rarity": 0,
+        "name": "Old Bed",
+        "type": "?"
+    },
+    "31": {
+        "rarity": 0,
+        "name": "Pet Bird",
+        "type": "Air"
+    },
+    "32": {
+        "rarity": 0,
+        "name": "Pet Rock",
+        "type": "?"
+    },
+    "33": {
+        "rarity": 0,
+        "name": "Pet Worm",
+        "type": "?"
+    },
+    "34": {
+        "rarity": 0,
+        "name": "Rainbow Butterfly",
+        "type": "Grass or Air"
+    },
+    "35": {
+        "rarity": 3,
+        "name": "Red Acorns",
+        "type": "Grass or Fire"
+    },
+    "36": {
+        "rarity": 0,
+        "name": "Sea Sponge",
+        "type": "Water"
+    },
+    "37": {
+        "rarity": 2,
+        "name": "Simple Purple Kite",
+        "type": "Air"
+    },
+    "38": {
+        "rarity": 0,
+        "name": "Small Balloon",
+        "type": "Air"
+    },
+    "39": {
+        "rarity": 2,
+        "name": "Small Coin",
+        "type": "?"
+    },
+    "40": {
+        "rarity": 0,
+        "name": "Small Terrarium",
+        "type": "Grass"
+    },
+    "41": {
+        "rarity": 4,
+        "name": "Spiky Ball",
+        "type": "Fire"
+    },
+    "42": {
+        "rarity": 2,
+        "name": "Thistle Tea",
+        "type": "Water or Grass"
+    },
+    "43": {
+        "rarity": 0,
+        "name": "Treasure Map",
+        "type": "?"
+    },
+    "44": {
+        "rarity": 3,
+        "name": "Uncomfy Bed",
+        "type": "?"
+    },
+    "45": {
+        "rarity": 0,
+        "name": "Unlucky Stick",
+        "type": "?"
+    },
+    "46": {
+        "rarity": 1,
+        "name": "Viridian Pair Of Socks",
+        "type": "Grass"
+    },
+    "47": {
+        "rarity": 2,
+        "name": "Volcano Cookie",
+        "type": "Fire"
+    },
+    "48": {
+        "rarity": 2,
+        "name": "Wet Chew Toy",
+        "type": "Water"
+    },
+    "49": {
+        "rarity": 0,
+        "name": "Whistle",
+        "type": "?"
+    }
+}
