@@ -56,6 +56,6 @@ for(var item of totalItems5.data) {
     }
 }
 
-uniqueItems = new Map([...uniqueItems].sort((a, b) => a[0] - b[0]));
+uniqueItems = new Map([...uniqueItems].sort((a, b) => a.rarity - b.rarity));
 
-console.log(JSON.stringify(Object.fromEntries(uniqueItems)))
+console.log(Object.fromEntries(uniqueItems))

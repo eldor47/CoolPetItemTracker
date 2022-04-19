@@ -12,30 +12,33 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    if(petId) {
-      fetch(
-        `https://prod.coolcatsapi2.com/pet-activity?limit=500&petTokenId=${petId}`,
-        {
-          method: "GET"
-        }
-      )
-        .then(res => res.json())
-        .then(response => {
-          if(response.data) {
-            setPetActivity(response.data);
-            setIsLoading(false);
-            setAllPetActivity(response.data);
-            setIsLoading(false);
-          } else {
-            setPetActivity([]);
-            setAllPetActivity([]);
-            setIsLoading(false);
+    const delayDebounceFn = setTimeout(() => {
+      if(petId) {
+        fetch(
+          `https://6436-2600-1700-78a1-3c50-8120-8cd0-bcc6-a9f0.ngrok.io?petTokenId=${petId}`,
+          {
+            method: "GET"
           }
-        })
-        .catch(error => console.log(error));
-    }
-  }, [petId]);
+        )
+          .then(res => res.json())
+          .then(response => {
+            if(response.data) {
+              setPetActivity(response.data);
+              setIsLoading(false);
+              setAllPetActivity(response.data);
+              setIsLoading(false);
+            } else {
+              setPetActivity([]);
+              setAllPetActivity([]);
+              setIsLoading(false);
+            }
+          })
+          .catch(error => console.log(error));
+      }
+    }, 3000)
 
+    return () => clearTimeout(delayDebounceFn)
+  }, [petId])
   const content = petActivity.map((item, key) =>
       <div
         className={'activityItem ' + item.type}
@@ -50,6 +53,8 @@ function App() {
         <p>{item.type === 'petInteraction' ? ('Expected Item Type: ' +  expectedRarity[item.itemTokenId + ''].type) : ''}</p>
       </div>
     );
+
+  const error = petActivity.length === 0 ? 'Pet Does not exist (or we have been Rate Limited... Sorry 😥)' : ''
 
   return (
     <div className="App">
@@ -68,6 +73,7 @@ function App() {
         </div>
         <div className='activityHolder'>
           {content}
+          {error}
         </div>
       </div>}
     </div>

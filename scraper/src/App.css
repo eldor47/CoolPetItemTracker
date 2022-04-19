@@ -36,32 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.im {
-  width: 100px;
-}
-
-.activityHolder {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 65vh;
-  overflow: auto;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-  padding-top: 20px;
-  background-color: lightgray;
-}
-
-.activityItem {
-  width: 25em;
-  margin: 10px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-  background-color: white;
-}
-
-.search-header {
-  height: 30vh;
-  max-width: 900px;
-  margin: auto;
-}
